@@ -1,0 +1,409 @@
+.frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.backgroundimg{
+    height: 2000px;
+    width: 2000px;
+    background-size: cover;
+    position: relative;
+}
+.frame .overlap-wrapper{
+    height: 2000px;
+    width: 2000px;
+    background-size: cover;
+}
+.overlap {
+    height: 2000px;
+    position: relative;
+    background-size: cover;
+    left: 40px;
+    top: -2000px;
+}
+.HEAD{
+    height: 440px;
+    position: absolute;
+    width: 2000px;
+}
+.overalap-group{
+    height: 356px;
+    position: relative;
+    top:-16px;
+}
+.STROKE{
+    height: 356px;
+    overflow: hidden;
+    position: absolute;
+    width: 2000px;
+    
+}
+.text-wrapper{
+    -webkit-text-stroke: 3px #ffffff80;
+    color: transparent;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 395px;
+    font-weight: 600;
+    top: -86px;
+    left: -59px;
+    position: absolute;
+    line-height: normal;
+  
+}
+.tournament-name{
+    height: 53px;
+    width: 878px;
+    top: 163px;
+    left: 392px;
+    position: absolute;
+    overflow: hidden;
+}
+.overalldiv{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4); 
+    color: white;
+    font-family: "Teko-medium", Helvetica;
+    font-size: 55px;
+    font-weight: 600;
+    top: -4px;
+    left: 4px;
+    position: absolute;
+    line-height: normal;
+}
+.TOURNAMENTLOGO{
+    height: 418px;
+    left: 35px;
+    object-fit: cover;
+    position: absolute;
+    top: 12px;
+    width: 385px;
+}
+.MATCH{
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    height: 69px;
+    width: 465px;
+    left: 1400px;
+    overflow: hidden;
+    position: absolute;
+    top: 151px;
+  
+}
+.text-wrapper-2{
+    color: #ffffff;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 800;
+    left: 7px;
+    line-height: normal;
+    position: absolute;
+    top: 3px;
+    width: 480px;
+    
+
+}
+.OVERALL_STANDING{
+    height: 200px;
+    width: 1577px;
+    position: absolute;
+    top: 156px;
+    left: 333px;
+    overflow: hidden;
+}
+.text-wrapper-3{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 146px;
+    font-weight: 700;
+    left: 390px;
+    line-height: 358.1px;
+    position: absolute;
+    top: 107px;
+    white-space:nowrap ;
+}
+
+.TOP-BOX{
+    height: 115px;
+    left: 42px;
+    position: absolute;
+    top: 453px;
+    width: 1918px;
+}
+.RANK-BOX{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);;
+    background-color: black;
+    height: 115px;
+    width: 200px;
+    position: absolute;
+    
+}
+.text-wrapper-4{
+    color: #ffffff;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 48px;
+    line-height: normal;
+    position: absolute;
+    top: 37px;
+}
+.TEAM{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);;
+    background-color: black;
+    height: 115px;
+    width: 941px;
+    position: absolute;
+    left: 206px;
+    
+}
+.text-wrapper-5{
+    color: #ffffff;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 370px;
+    line-height: normal;
+    position: absolute;
+    top: 37px;
+    letter-spacing: 2px;
+}
+.BOX{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);;
+    height: 115px;
+    width: 764px;
+    position: absolute;
+    left: 1154px;
+    
+}
+.text-wrapper-6{
+    color: #000000;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 41px;
+    line-height: normal;
+    position: absolute;
+    top: 37px;
+
+}
+.text-wrapper-7{
+    color: #000000;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 231px;
+    line-height: normal;
+    position: absolute;
+    top: 37px;
+
+
+}
+.text-wrapper-8{
+    color: #000000;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 444px;
+    line-height: normal;
+    position: absolute;
+    top: 37px;
+
+   
+}
+.text-wrapper-9{
+    color: #000000;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 612px;
+    line-height: normal;
+    position: absolute;
+    top: 37px;
+
+   
+}
+.standing-box{
+    height: 1165px;
+    left: 43px;
+    position: absolute;
+    top: 578px;
+    width: 1916px;
+    display: flex;
+    
+}
+.POINT-BOX{
+    height: 115px;
+    position: relative;
+    top: 0px;
+    width: 1916px;
+    
+}
+.TEAM-BOX:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.6); /* Set your odd color */
+}
+
+.TEAM-BOX:nth-child(even) {
+    background-color:  #ffffffc2; /* Set your even color */
+}
+.RANK{
+    background-color: #ffffffc2;
+    height: 115px;
+    position: absolute;
+    width: 200px;
+    left: -205px;
+}
+
+.text-wrapper-10{
+    color: #131313;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 70px;
+    line-height: normal;
+    position: absolute;
+    top: 35px;
+}
+.TEAM-BOX{
+    background-color: rgba(255, 255, 255, 0.6);
+
+    height: 115px;
+    position: relative;
+    width: 941px;
+    left: 206px;
+}
+.team-logo{
+    background-color: #ffffffb0;
+    height: 115px;
+    width: 200px;
+    position: absolute;
+}
+.logo1{
+    height: 110px;
+    left: 42px;
+    object-fit: cover;
+    position: absolute;
+    top: 3px;
+    width: 110px;
+}
+.FLAG{
+    height: 115px;
+    width: 200px;
+    position: absolute;
+}
+.FLAG1{
+    height: 81px;
+    left: 215px;
+    /* object-fit: cover; */
+    position: absolute;
+    top: 20px;
+    width: 62px;
+}
+.team-wrapper{
+    height: 114px;
+    left: 315px;
+    position: absolute;
+    top: 1px;
+    width: 632px;
+}
+.text-wrapper-11{
+    color: #1b1b1b;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 333px;
+    line-height: normal;
+    position: absolute;
+    top: 35px;
+}
+.WWCD-wrapper{
+    background-color: #ffffffc2;
+    height: 115px;
+    left: 193px;
+    position: absolute;
+    width: 187px;
+    display: flex;
+    
+}
+.PLACE-wrapper{
+    background-color: #ffffffc2;
+    height: 115px;
+    left: 385px;
+    position: absolute;
+    width: 187px;
+}
+.ELIM-wrapper{
+    background-color: #ffffffc2;
+    height: 115px;
+    left: 577px;
+    position: absolute;
+    width: 187px;
+}
+.TOTAL-wrapper{
+    background-color: #ffffffc2;
+    height: 115px;
+    left: 768px;
+    position: absolute;
+    width: 187px;
+}
+.div-wrapper-3{
+    background-color: #ffffffd9;
+    height: 115px;
+    position: relative;
+}
+.text-wrapper-12{
+    color: #000000;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 79px;
+    line-height: normal;
+    position: absolute;
+    top: 35px;
+}
+.download-button {
+    top: -1px;
+    font-size: 12px;
+    padding: 5px 10px;
+    height: 77px;
+    width: 107px;
+    position: absolute;
+}
+.POINT-BOX-2{
+    height: 115px;
+    position: absolute;
+    top: 116px;
+    width: 1916px;
+    display: flex;
+    flex-direction: column;
+}
+.text-wrapper-13{
+    color: #000000;
+    font-family: "Teko-SemiBold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 79px;
+    line-height: normal;
+    position: absolute;
+    top: 35px;
+}
+.TEAM-BOX-2{
+    background-color: #ffffffc2;
+    height: 115px;
+    position: absolute;
+    width: 941px;
+    left: 206px;
+}
+.team-details{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 755px;
+}
+.production-logo-1{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 1832px;
+    left: 100px;
+}
